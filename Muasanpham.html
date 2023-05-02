@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/chung.css">
+    <link href="css/thongtin.css" rel="stylesheet">
+    <link rel="website icon" type="png" href="hinhanh/logo2.jpg">
+    <title>Mua</title>
+</head>
+
+<body>
+
+    <!--PHẦN HEADER-->
+    <div class="container-fluid" style="background:linear-gradient(to right, #3f2a27, #b9193f,#fff);">
+        <div class="row1">
+            <img src="hinhanh/logo2.jpg" alt="" style="width: 160px;height: 120px;left: 100px;">
+            <h1>TRANG WEB BÁN HÀNG</h1>
+            <h1 style="text-align: center; color: #3f2a27; ">
+                <script type="text/javascript">
+                    function makeArray(n) {
+                        arglen = makeArray.arguments.length;
+                        for (var i = 0; i < arglen; i++) {
+                            this[i + 1] = makeArray.arguments[i];
+                        }
+                    }
+                    var today = new Date();
+                    var months = new makeArray("01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12");
+                    var days = new makeArray("Chủ nhật", "Thứ hai", "Thứ ba", "Thứ tư", "Thứ năm", "Thứ sáu", "Thứ bảy");
+                    var dates = today.getDate();
+                    var ngay = today.getDay() + 1;
+                    var nam = (today.getYear() % 100) + 2000;
+                    if (ngay == 0) ngay += 7;
+                    document.write("" + days[ngay] + " - " + dates + " /" + months[today.getMonth() + 1] + " /" + nam); //today.getYear() 
+                </script><br />
+                <iframe style="overflow: hidden; border: 0; margin: 0; padding: 0; width: 280px; height: 50px;"
+                    src="https://www.clocklink.com/html5embed.php?clock=047&amp;timezone=VietNam_Hanoi&amp;color=&amp;size=280&amp;Title=&amp;Message=&amp;Target=&amp;From=2020,1,1,0,0,0&amp;Color=black"
+                    frameborder="no" scrolling="no"></iframe></span></span>
+            </h1>
+        </div>
+    </div>
+
+    <!--KẾT THÚC HEADER-->
+
+    <!--THANH ĐIỀU HƯỚNG-->
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+
+                    <span class="sr-only">Toggle navigation</span>
+
+                    <span class="icon-bar"></span>
+
+                    <span class="icon-bar"></span>
+
+                    <span class="icon-bar"></span>
+
+
+                </button>
+                <a class="navbar-brand" href="trangchu.html">Trang chủ</a>
+            </div>
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav">
+
+                    <li><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li><a href="quatrinhthuctap.html">Quá Trình Thực Tập</a></li>
+                    <li><a href="sanpham.html">Sản phẩm</a></li>
+                    <li><a href="khachhangtieubieu.html">Khách hàng tiêu biểu</a></li>
+                    <li><a href="lienhe.html">Liên hệ</a></li>
+                    <li><a href="dangnhap.html">Đăng Nhập</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+
+
+        </div><!-- /.container-fluid -->
+
+
+
+    </nav>
+
+
+    <!--KẾT THÚC THANH ĐIỀU HƯỚNG-->
+
+    <!--THÂN WEBSITE-->
+    <div class="container" style="width: 80%;">
+        <div class='property'>
+
+            <div class="container" style="font-size: 18px;">
+                <h1>Thông Tin khách Hàng</h1>
+                <form role="form">
+                    <div class="form-group" style="margin-top: 50px;">
+                        <label for="hovaten">Họ và tên:</label>
+                        <input type="text" class="form-control" id="hovaten" placeholder="Họ và tên"
+                            style="width: 70%;">
+                    </div>
+                    <div class="form-group" style="margin-top: 50px;">
+
+                        <label for="email">Email:</label>
+
+                        <input type="email" class="form-control" id="email" placeholder="Nhập email"
+                            style="width: 70%;">
+                    </div>
+                    <div class="form-group" style="margin-top: 50px;">
+
+                        <label for="sodienthoai">Số điện thoại:</label>
+
+                        <input type="text" class="form-control" id="sodienthoai" placeholder="Nhập số điện thoại"
+                            style="width: 70%;">
+
+                    </div>
+                    <div class="form-group" style="margin-top: 50px;">
+                        <label for="diachi">Địa chỉ:</label>
+
+                        <input type="text" class="form-control" id="diachi" placeholder="Nhập địa chỉ"
+                            style="width: 70%;">
+                    </div>
+                    <div class="form-group" style="margin-top: 50px;">
+                        <label for="sanpham">Sản Phẩm : </label>
+                        <div class='form-group1'>
+                            <img src='hinhanh/1.jpg' class='product-image' style='width: 13%;height: 120px;'>
+                            <div class='product-info'>
+                                <h2>PC Gaming E-Power G1650</h2>
+                                <p style="font-size: 30px;
+                                color: #b9193f;">19.999.000đ</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group" style="margin-top: 50px; margin-bottom: 20px;">
+
+                        <label for="voucher">Voucher:</label>
+
+                        <input type="text" class="form-control" id="voucher" placeholder="Nhập Mã Giảm Giá"
+                            style="width: 70%;">
+
+                    </div>
+                    <div class="form-group" style="margin-top: 50px; margin-bottom: 20px;">
+
+                        <label for="vanchuyen">Vận Chuyển:</label>
+                        <label for="vanchuyen" style="margin-left: 300px;">Vận Chuyển Nhanh</label>
+                    </div>
+                    <div class="form-group" style="margin-top: 20px; margin-bottom: 20px;">
+
+                        <label for="vanchuyen">Tổng Số Tiền (1 sản Phẩm):</label>
+                        <label for="vanchuyen" style="margin-left: 175px;">19.999.000đ</label>
+                    </div>
+                    <div class="form-group" style="margin-top: 20px; margin-bottom: 20px;">
+
+                        <label for="vanchuyen">Phương Thức Thanh Toán:</label>
+                        <label for="vanchuyen" style="margin-left: 178px;">Thanh Toán Khi Nhận Hàng</label>
+                    </div>
+                    <a href="sanpham.html" class='btn'style="margin-bottom: 20px; color: #fff; margin-left: 400px;">Đặt Hàng</a>
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--KẾT THÚC THÂN WEBSITE-->
+
+    <!--CHÂN WEBSITE-->
+    <div class="container-fluid">
+
+        <div class="row">
+            <p>&copy; 2023 Bán hàng trực tuyến. Tất cả các quyền được bảo lưu.&emsp; Quốc gia & Khu vực: Singapore |
+                Indonesia | Đài Loan | Thái Lan | Malaysia | Việt Nam | Chile</p>
+        </div>
+
+    </div>
+    <!--KẾT THÚC CHÂN WEBSITE-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
